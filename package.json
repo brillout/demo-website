@@ -1,0 +1,17 @@
+{
+  "name": "website-dependency-tree--demo",
+  "version": "0.1.1",
+  "jspm": {
+    "directories": {
+      "baseURL": "src/js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.91",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91"
+    }
+  },
+  "dependencies": {
+    "jspm": "^0.16.0-beta.7"
+  }
+}

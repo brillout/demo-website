@@ -1,0 +1,19 @@
+@import   './first-letter.css';
+@import url(//fonts.googleapis.com/css?family=Josefin+Sans);
+/* @import 'commented/dependency.css'; */
+
+#css-text {
+  font-family: 'Josefin Sans';
+}
+#css-text::before{
+  content: "Hello from CSS";
+}
+#css-text::after{
+  content: "";
+  display: inline-block;
+  width: 16px;
+  margin-left: 10px;
+  height: 16px;
+  background-image: url("/duck-404.gif");
+  background-image: url("duck.gif");
+}
