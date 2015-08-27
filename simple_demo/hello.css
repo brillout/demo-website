@@ -4,3 +4,11 @@
 #hello-css::before {
     content: "hello from CSS";
 }
+#hello-css::after {
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background: url('duck.gif');
+    margin-left: 6px;
+}
