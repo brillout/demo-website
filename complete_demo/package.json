@@ -3,8 +3,10 @@
   "version": "0.1.1",
   "jspm": {
     "directories": {
-      "baseURL": "src/js"
+      "baseURL": "src",
+      "packages": "src/js/jspm_packages"
     },
+    "configFile": "src/js/config.js",
     "dependencies": {},
     "devDependencies": {
       "traceur": "github:jmcriffey/bower-traceur@0.0.91",
