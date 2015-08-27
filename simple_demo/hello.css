@@ -1,0 +1,6 @@
+#hello-css {
+    color: green;
+}
+#hello-css::before {
+    content: "hello from CSS";
+}
