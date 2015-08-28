@@ -2,7 +2,7 @@
 
 ```
 npm install -g website-dependency-tree
-website-dependency-tree http://brillout.github.io/website-dependency-tree--demo/simple_demo/
+website-dependency-tree http://brillout.github.io/demo-website/simple_demo/
 ```
 
 ## Run the complete demo
@@ -10,8 +10,8 @@ website-dependency-tree http://brillout.github.io/website-dependency-tree--demo/
 ```
 npm install -g website-dependency-tree
 
-git clone git@github.com:brillout/website-dependency-tree--demo
-cd website-dependency-tree--demo/
+git clone git@github.com:brillout/demo-website
+cd demo-website/
 
 website-dependency-tree complete_demo/src/index.html
 ```
